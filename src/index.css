@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #eee;
+}
+
+.myForm h1{
+  text-align: center;
+  margin-top: 60px;
+  font-family: Courier New;
+}
+
+.myForm{
+  text-align: center;
+  margin-top: 90px;
+}
+
+.myForm p{
+  color: #4175F1;
+}
+
+.mySearch{
+  width: 650px;
+  height: 51px;
+  padding-left: 15px;
+  border-radius: 25px 0 0 25px;
+  border: none;
+  background-color: #222939;
+  outline: none;
+  
+  
+}
+
+button{
+  width:80px;
+  height: 53px;
+  border-radius: 0 25px 25px 0;
+  border:none;
+  margin-left: -50px;
+  background-color: #4F4CF0;
+  border-left-style: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.myList{
+  margin-top: 150px;
+  margin-left: -40px;
+}
+
+.list-unstyled{
+  list-style: none;
+}
+
+
+.list-unstyled li{
+  display: inline-block;
+  width: 30%;
+  margin-left: 23px;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+.list-unstyled li a{
+  color: blue;
+}
+
+.list-unstyled li img{
+  width:25px;
+  height: 15px
+}
+
+.myList h3{
+  text-align: left;
+  margin-left: 30px;
+  font-family: Calibri Light;
+  text-align: center;
+  font-size: xx-large
+}
+
+
+
+.Navbar{
+  height: 55px;
+  background-color: #222939;
+}
+.Navbar ul{
+  list-style: none;
+  margin-right: 50px;
+  float: right;
+}
+
+
+.Navbar h3{
+  float: left;
+  text-align: left;
+  color: #eee;
+  padding-left: 50px;
+}
+
+
+.Navbar li{
+  
+  float: left;
+  padding-right: 35px;
+  cursor: pointer;
+}
+
+.Navbar li :hover{
+  text-decoration: underline;
+}
+
+.Navbar li a{
+  color: #eee;
+  text-decoration: none;
+}
+
+
+.About{
+  margin-top: 100px;
+}
+.About h1, h2 {
+  color: #222939;
+  text-align: center;
+}
+
+.News h2{
+  text-decoration: underline;
+  color: blue;
+}
+.News p{
+  text-align: center;
+  color: #222939;
+  width: 50%;
+  margin: auto;
+  font-size: xx-large;
+}
+
+.News img{
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+
+.Load {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
